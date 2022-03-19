@@ -1,4 +1,4 @@
-# <img src="https://github.com/JaviEpi/portfolio_Antiguo/blob/master/img/logo/fav.png" width="25px" height="25px"/> Desarrollo Web en Entorno Cliente
+# <img src="https://github.com/JaviEpi/portfolio_Antiguo/blob/master/img/logo/fav.png" width="30px" height="30px"/> Desarrollo Web en Entorno Cliente
 
 Todas las prácticas y examenes de la asignatura Desarrollo Web en Entorno Cliente de 2ª de Desarrollo de Aplicaciones Web.
 
@@ -11,5 +11,7 @@ UNIDADES DIDÁCTICAS O RA'S: <br/>
 [UD6: DOM en JS]()<br/>
 [UD7: jQuery]()<br/>
 [UD8: AJAX]()<br/>
+
+
 
 
