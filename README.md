@@ -8,7 +8,7 @@ UNIDADES DIDÁCTICAS O RA'S: <br/>
 [UD3: Objetos predefinidos en JS]()<br/>
 [UD4: Funciones, «arrays», y objetos definidos por el usuario en JS0]()<br/>
 [UD5: Eventos y formularios en JS]()<br/>
-[UD6: DOM en JS]()<br/>
+[UD6: DOM en JS](https://github.com/JaviEpi/DWEC/tree/main/UD6-DOM)<br/>
 [UD7: jQuery]()<br/>
 [UD8: AJAX]()<br/>
 
