@@ -1,4 +1,4 @@
-# ![LOGO](https://github.com/JaviEpi/portfolio_Antiguo/blob/master/img/logo/fav.png) Desarrollo Web en Entorno Cliente
+# <img src="https://github.com/JaviEpi/portfolio_Antiguo/blob/master/img/logo/fav.png" width="25px" height="25px"/> Desarrollo Web en Entorno Cliente
 
 Todas las prácticas y examenes de la asignatura Desarrollo Web en Entorno Cliente de 2ª de Desarrollo de Aplicaciones Web.
 
