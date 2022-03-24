@@ -5,6 +5,11 @@
  */
 
 window.addEventListener("DOMContentLoaded", function() {
+    parrafos[0].innerHTML += " Javier"
+    parrafos[1].innerHTML += " Epifanio López"
+    parrafos[0].style.background = parrafos[1].style.background = "lightblue"
+
+    const colores = ["rojo","amarillo","verde"]
 
     let comprobrarDivs = function(){
         grid = Array.from(document.querySelectorAll(".grid")[0].children)
@@ -30,11 +35,7 @@ window.addEventListener("DOMContentLoaded", function() {
         
     let parrafos= document.querySelectorAll("p")
 
-    parrafos[0].innerHTML += " Javier"
-    parrafos[1].innerHTML += " Epifanio López"
-    parrafos[0].style.background = parrafos[1].style.background = "lightblue"
-
-    const colores = ["rojo","amarillo","verde"]
+    
     let grid = Array.from(document.querySelectorAll(".grid")[0].children)
     grid.forEach(div => {
         div.className = colores[Math.round(Math.random()*(colores.length -1))]
