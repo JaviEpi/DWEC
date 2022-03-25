@@ -4,7 +4,7 @@
  * @author Javier Epifanio López
  */
 
-window.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     parrafos[0].innerHTML += " Javier"
     parrafos[1].innerHTML += " Epifanio López"
     parrafos[0].style.background = parrafos[1].style.background = "lightblue"
