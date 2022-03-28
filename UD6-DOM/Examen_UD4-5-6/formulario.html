@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Javier Epifanio López">
+    <title>Javier Epifanio López</title>
+    <script src="js/alumno.js"></script>
+    <script src="js/form.js"></script>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <noscript>
+        <p>Para el correcto funcionamiento de la página, es necesario tener habilitado el JavaScript.</p>
+    </noscript>
+    <form>
+        <input type="button" id="rellenar" name="rellenar" value="rellenar">
+        <input type="reset" id="reset" name="reset" value="reset">
+        <br>
+        <label>nombre :<input type="text" name="nombre" id="nombre" placeholder="nombre"> <span class="oculto" id="nombreError">nombre no introducido</span></label>
+        <br>
+        <label>apellidos :<input type="text" name="apellidos" id="apellidos" placeholder="apellidos"> <span class="oculto" id="apellidosError">apellido no introducido</span></label>
+        <br>
+        <label>curso :<input type="text" name="curso" id="curso" placeholder="curso"><span class="oculto" id="cursoError">curso erroneo</span></label>
+        <br>
+        <input type="submit" id="submit" name="submit" value="submit">
+    </form>
+</body>
+</html>
