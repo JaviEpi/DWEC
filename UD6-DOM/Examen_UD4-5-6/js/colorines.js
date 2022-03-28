@@ -5,6 +5,7 @@
  */
 
 document.addEventListener("DOMContentLoaded", function() {
+    let parrafos= document.querySelectorAll("p")
     parrafos[0].innerHTML += " Javier"
     parrafos[1].innerHTML += " Epifanio López"
     parrafos[0].style.background = parrafos[1].style.background = "lightblue"
@@ -26,20 +27,19 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 
-    let borrar =  function() {
+    let cliquea =  function() {
             this.innerHTML = this.className
             this.className = ""
-            this.removeEventListener("click",borrar)
+            this.removeEventListener("click",cliquea)
             comprobrarDivs()
         }
         
-    let parrafos= document.querySelectorAll("p")
 
     
     let grid = Array.from(document.querySelectorAll(".grid")[0].children)
     grid.forEach(div => {
         div.className = colores[Math.round(Math.random()*(colores.length -1))]
-        div.addEventListener("click",borrar)
+        div.addEventListener("click",cliquea)
     })
 
 });
