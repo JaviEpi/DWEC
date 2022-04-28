@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Plugins</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/efectoImg.js"></script>
+    <script src="js/cambioColor.js"></script>
+    <style>
+        img {
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+        <p>Para poder utilizar esta aplicación, es necesario tener JavaScript habilitado.</p>
+    </noscript>
+    <header>
+        <h1>Plugins jQuery</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Ejemplo plugin jQuery con imágenes</h2>
+            <div class="img">
+                <img id="img" src="img/js.png" alt="logo js">
+                <img id="img" src="img/jq.png" alt="logo jq">
+            </div>
+            <button id="efectoImg1">Efecto fadeOut</button>
+            <button id="efectoImg2">Efecto slideUp</button>
+        </section>
+        <section>
+            <h2>Ejemplo plugin jQuery con colores</h2>
+            <ul>
+                <li class="element">Plugin jQuery</li>
+                <li class="element" >Plugin jQuery</li>
+                <li class="element" >Plugin jQuery</li>
+            </ul>
+            <button id="colores">Cambiar color</button>
+        </section>
+    </main>
+</body>
+</html>
