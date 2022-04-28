@@ -1,5 +1,5 @@
 $(function(){
-    $('#efectoImg1').click(function(){
+    $('#efectoImg').click(function(){
         $('.img').efectoImg({
             efecto: "fadeOut",
             duracion: 1000
