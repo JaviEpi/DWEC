@@ -1,5 +1,5 @@
 jQuery.fn.efectoImg = function (opciones) {
-    var opciones = jQuery.extend({
+    const opciones = jQuery.extend({
         efecto: "fadeOut",
         duracion: 1000
     }, opciones);
