@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--author-->
+    <meta name="author" content="Javier Epifanio López">
+    <title>Mastermind jQuery</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="mastermind.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <noscript>
+        <h1>Please enable JavaScript</h1>
+    </noscript>
+    <header>
+        <h1>Mastermind</h1>
+    </header>
+    <main>
+        <div id="contenedor">
+            <div id="resultados">
+                <button class="btn-comprobar">Comprobación</button>
+
+                <div class="fila">
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                </div>
+            </div>
+            <div id="colorines">
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+                <div class="colores"></div>
+            </div>
+            <div id="ganar-oculto">
+                <h3>¡Has Ganado!</h3>
+                <div id="reiniciar">Reiniciar</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
