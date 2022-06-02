@@ -38,7 +38,7 @@
     });
 
     $(document).on("click", ".hueco", function(){
-        $(this).css("backgroundColor", "grey")
+        $(this).css("backgroundColor", "transparent")
             .attr("data-libre", "true");
     })
     .on("click", "#reiniciar", function(){
