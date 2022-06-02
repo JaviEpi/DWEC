@@ -1,0 +1,1 @@
+let colores = ["red", "white", "black", "yellow", "orange", "brown", "blue", "green"]
