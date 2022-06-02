@@ -6,25 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mastermind</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/mastermind.js"></script>
 </head>
 <body>
     <header>
         <h1>Mastermind</h1>
     </header>
     <main>
-        <div class="tablero">
-            <div class="bolasColores">
-                <div class="bolaColor red" ></div>
-                <div class="bolaColor white"></div>
-                <div class="bolaColor black"></div>
-                <div class="bolaColor yellow"></div>
-                <div class="bolaColor orange"></div>
-                <div class="bolaColor brown"></div>
-                <div class="bolaColor blue"></div>
-                <div class="bolaColor green"></div>
+        <div id="tablero">
+            <div id="resultados">
+                <button class="btn-comprobar">Comprobar</button>
+                <div class="fila">
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="hueco" data-libre="true"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                    <div class="comprobar"></div>
+                </div>
             </div>
-            <div class="bolasNegrasBlancas">
-                
+            <div id="bolasColores">
+                <div class="red" ></div>
+                <div class="white"></div>
+                <div class="black"></div>
+                <div class="yellow"></div>
+                <div class="orange"></div>
+                <div class="brown"></div>
+                <div class="blue"></div>
+                <div class="green"></div>
+            </div>
+            <div id="ganar-oculto">
+                <h3>¡Has Ganado!</h3>
+                <div id="reiniciar">Reiniciar</div>
             </div>
         </div>
     </main>

@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header h1{
@@ -9,45 +11,180 @@ header h1{
     color: #fff;
     background: #000;
     padding: 10px;
+    margin-bottom: 20px;
 }
-
-.bolaColor{
+.hueco{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
     border: 2px solid #000;
-    margin: 10px;
     cursor: pointer;
 }
 
+#tablero{
+    display: flex;
+    width:70%;
+    height: auto;
+    background-color: #e8eddf;
+    border: 2px solid #000;
+    box-shadow: 0 0 5px #000;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-comprobar{
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #000;
+    background-color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comprobar, .antiguo-comprobar{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 2px solid #000;
+}
+
+.fila{
+    display: flex;
+    align-items: baseline;
+}
+
+#bolasColores{
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5cb5c;
+    border-left: 2px solid black;
+    padding-top: 20px;
+}
+
+#resultados{
+    display: flex;
+    width: 92%;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+}
+
 .red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #ff0000;
 }
 
 .white{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #fff;
 }
 
 .black{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #000;
 }
 
 .yellow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #ff0;
 }
 
 .orange{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #ffa500;
 }
 
 .brown{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #8b4513;
 }
 
 .blue{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #0000ff;
 }
 
 .green{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
     background: #00ff00;
+}
+
+#ganar-oculto{
+    display: none;
+}
+
+#ganar{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#reiniciar{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
 }
