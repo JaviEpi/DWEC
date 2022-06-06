@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Javier Epifanio López">
+    <script src="js/Ej02.js"></script>
+    <title>Ej02</title>
+</head>
+
+<body>
+    <noscript>
+        <h1>Para poder utilizar este sitio tienes que habilitar javascript</h1>
+    </noscript>
+    <h1>Suma y Multiplicación en Sistemas de Numeración</h1>
+    <form action="">
+        <h3>Suma y multiplicación: Crea una página que sume y multiplique independientemente del los sistemas de
+            numeración</h3>
+        <label for="">Primer valor: </label>
+        <input type="text" name="conversion" id="primerValor" placeholder="Introduce un valor">
+
+        <select id="valor1" name="valor1">
+            <option value="binarioValor1">Binario</option>
+            <option value="octalValor1">Octal</option>
+            <option value="decimalValor1">Decimal</option>
+            <option value="hexadecimalValor1">Hexadecimal</option>
+        </select>
+
+        <br>
+        <label for="">Segundo valor: </label>
+        <input type="text" name="conversion" id="segundoValor" placeholder="Introduce un valor">
+
+        <select name="valor2" id="valor2">
+            <option value="binarioValor2">Binario</option>
+            <option value="octalValor2">Octal</option>
+            <option value="decimalValor2">Decimal</option>
+            <option value="hexadecimalValor2">Hexadecimal</option>
+        </select>
+        <br>
+
+        <input type="radio" id="suma" name="operadores" value="suma">
+        <label for="male">Suma</label>
+        <input type="radio" id="multiplicacion" name="operadores" value="multiplicacion">
+        <label for="female">Multiplicación</label><br>
+
+
+        <input type="submit" value="enviar" id="enviar">
+        
+
+
+        <div id="resultado"></div>
+
+    </form>
+
+</body>
+
+</html>
