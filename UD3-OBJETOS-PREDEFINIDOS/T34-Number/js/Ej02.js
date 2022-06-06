@@ -1,5 +1,5 @@
 /**
- * @author Francisco Javier Campos Gutiérrez
+ * @author Javier Epifanio López
  * Enunciado: suma y multiplicación: Crea una página que sume y multiplique independientemente del los sistemas de numeración
  */
 

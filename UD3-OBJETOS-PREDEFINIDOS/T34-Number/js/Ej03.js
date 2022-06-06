@@ -1,5 +1,5 @@
 /**
- * @author Francisco Javier Campos Gutiérrez
+ * @author Javier Epifanio López
  * 
  * Enunciado: Calcula el área de una circunferencia. Admitirá números decimales. 
  * Asegúrate de que en el resultado nunca se muestren más de 4 dígitos

@@ -1,5 +1,5 @@
 /**
- * @author Francisco Javier Campos Gutierrez
+ * @author Javier Epifanio López
  *
  * Enunciado: Sistemas numéricos: Crea una página que transforme de un sistema
  * numérico a otro: binario, octal, decimal, hexadecimal.
