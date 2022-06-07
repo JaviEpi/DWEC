@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Javier Epifanio López">
+    <script src="js/main.js"></script>
+    <script src="js/valida.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario Completito</title>
+</head>
+<body>
+    <h1>Formulario Completito</h1>
+    <form action="">
+        <fieldset>
+            <label for="texto">Nombre</label><span id="spanNombre"></span>
+            <input type="text" name="texto" id="nombre">
+            <br>
+            <label for="texto">Apellidos</label><span id="spanApellidos"></span>
+            <input type="text" name="texto" id="apellidos">
+            <br>
+            <label for="opciones">¿Estudias a diario?
+                <input type="checkbox" id="checkbox" value=""><span id="spanCheckbox"></span>
+            </label>
+            <br>
+            <label for="gender" id="generos">Selecciona una opción<br>
+                <label for="male">Masculino</label>
+                <input type="radio" id="masculino" name="gender" value="Masculino"><br>
+                <label for="female">Femenino</label>
+                <input type="radio" id="femenino" name="gender" value="Femenino">
+            </label>
+            <span id="spanGender"></span><br>
+            <label for="opciones">Selecciona tu vehículo habitual:</label>
+            <select id="vehiculos" name="opciones">
+                <option value="">- Selecciona un valor -</option>
+                <option value="1">Coche</option>
+                <option value="2">Bicicleta</option>
+                <option value="3">Patín</option>
+            </select>
+            <span id="spanVehiculos"></span>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="mail"><span id="spanMail"></span>
+            <br>
+            <label for="email">DNI:</label>
+            <input type="text" name="dni" id="dni"><span id="spanDNI"></span>
+            <br>
+            <label for="email">Fecha:</label>
+            <input type="text" name="date" id="fecha"><span id="spanDate"></span>
+            <br>
+            <label for="email">Teléfono:</label>
+            <input type="text" name="telefono" id="telefono"><span id="spanTelefono"></span>
+            <br>
+            <label for="email">URL:</label>
+            <input type="text" name="url" id="url"><span id="spanURL"></span>
+            <br>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpia</button>
+        <button type="button">Rellenar</button>
+    </form>
+</body>
+</html>
